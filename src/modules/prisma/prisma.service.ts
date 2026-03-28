@@ -15,6 +15,7 @@ export class PrismaService extends PrismaClient implements OnModuleInit {
       adapter,
     });
   }
+
   async onModuleInit() {
     await this.$connect();
   }
